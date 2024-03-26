@@ -10,6 +10,9 @@
 4. 在业务系统的回调判断event_code==='service.state_machine.change_status.after' && status === 'paid'，否则忽略
 5. 循环$data['order']['orderProducts'] 判断product_sku==='xxx'为$data['order']['customer']['id'] 增加VIP余量
 
+## !!! 对接Laravel业务系统注意事项
+1. 将回调地址定义在需要用户认证的路由组之外
+2. 将回调地址定义在`\App\Http\Middleware\VerifyCsrfToken::$except` 数组中
 
 ## 未来计划：
 1. 可配置多个钩子
