@@ -1,0 +1,20 @@
+{
+    "code": "web_hook",
+    "name": {
+        "zh_cn": "外部钩子/事件回调/WebHook",
+        "zh_hk": "外部钩子/事件回调/WebHook",
+        "en": "WebHook"
+    },
+    "description": {
+        "zh_cn": "用于将beikeshop的事件回调到外部系统",
+        "zh_hk": "用于将beikeshop的事件回调到外部系统",
+        "en": "Used to call back events of beikeshop to external systems"
+    },
+    "type": "feature",
+    "version": "v1.0.0",
+    "icon": "/image/logo.png",
+    "author": {
+        "name": "shellus",
+        "email": "353358601@qq.com"
+    }
+}
